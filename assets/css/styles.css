@@ -168,3 +168,31 @@ th {
 td {
   color: var(--muted);
 }
+.status {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.status.approved {
+  color: #052e16;
+  background: rgba(34, 197, 94, 0.9);
+}
+
+.status.failed {
+  color: #450a0a;
+  background: rgba(239, 68, 68, 0.9);
+}
+
+.status.pending {
+  color: #422006;
+  background: rgba(245, 158, 11, 0.9);
+}
+
+small {
+  color: var(--warning);
+  font-weight: 700;
+}
